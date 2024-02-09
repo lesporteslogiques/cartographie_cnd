@@ -25,15 +25,19 @@ Cartographie (version écran) pour 2022-2023
 
 Export PNG réalisé avec inkscape v0.92 en ligne de commande, sur Debian 9
 
+```
 inkscape -z -w 7086 -h 4724 graphe_011_CND_22-23.svg -e CND_22-23_verso.png
 
 -z : without GUI
 -w : largeur en pixels
 -h : hauteur en pixels
 -e : export PNG
+```
 
-Pour la documentation de l'utilisation d'inkscape en ligne de commande, voir https://inkscape.org/doc/inkscape-man.html ou utiliser ''man inkscape'' dans un terminal 
+Pour la documentation de l'utilisation d'inkscape en ligne de commande, voir https://inkscape.org/doc/inkscape-man.html ou utiliser `man inkscape` dans un terminal 
 
 Puis montage en pdf avec imagemagick
 
+```
 convert ./CND_22-23_recto.png ./CND_22-23_verso.png -density 300 -units pixelsperinch CND_22-23.pdf
+```
