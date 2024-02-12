@@ -34,6 +34,15 @@ inkscape -z -w 7086 -h 4724 graphe_011_CND_22-23.svg -e CND_22-23_verso.png
 -e : export PNG
 ```
 
+Variante pour inkscape 1.02, Debian 11 
+
+```
+inkscape -w 7086 -h 4724 cartoCND_recto_2223_finish_20230212.svg -o image.png
+
+-o : fichier de sortie
+```
+
+
 Pour la documentation de l'utilisation d'inkscape en ligne de commande, voir https://inkscape.org/doc/inkscape-man.html ou utiliser `man inkscape` dans un terminal 
 
 Puis montage en pdf avec imagemagick
